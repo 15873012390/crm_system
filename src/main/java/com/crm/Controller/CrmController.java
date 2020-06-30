@@ -10,5 +10,9 @@ public class CrmController {
     public String info(){
         return "git测试案例";
     }
+    @GetMapping("/info2")
+    public String info2(){
+        return "git测试案例2";
+    }
 
 }
